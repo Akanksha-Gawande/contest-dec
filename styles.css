@@ -1,0 +1,238 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Quattrocento&family=Ruda&display=swap');
+
+nav {
+    
+    background-color: #000000;
+    padding-top: 20px;
+    top: 0px;
+    position: sticky;
+}
+.logo {
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 29px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.74px;
+    padding-left: 20px;
+}
+.directions>a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 200;
+}
+.social-icons>img {
+    align-items: center;
+    text-align: center;
+}
+.main-container {
+    width: 100vw;
+    min-height: 700px;
+    background-image: url("./aa/pizza1\ 1.svg");
+    background-size:cover ;
+    color: #FFFFff;
+}
+.main {
+    padding: 30px;
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.heading {
+    
+   font-size: 101px;
+   font-family:'Quattrocento', serif;
+   font-weight: 900;
+   line-height: 108.50px;
+   letter-spacing: 9.09px;
+   margin-left: 15px;
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+}
+.info>p {
+    font-size: 15px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 200;
+    line-height: 40px;
+    letter-spacing: 2.25px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.about-us {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 35px;
+}
+.about-us-heading {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+}
+.info1>p {
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2.25px;
+}
+.info1>img {
+    width: 500px;
+    height: 400px;
+    
+}
+.menu {
+    padding: 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.menu-header {
+    text-align: center;
+}
+.menu-header>h1 {
+    font-size: 30px;
+    font-family: 'Quattrocento', serif;
+    font-weight: 200;
+
+}
+.menu-header>p {
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2.25px;
+    padding-top: 10px;
+    padding: 40px;
+}
+.menu-list {
+    padding: 50px;
+}
+.menu1 {
+    padding-left: 50px;
+}
+.menu1>img {
+    padding-left: 50px;
+    width: 280px;
+    height: 200px;
+}
+.menu-info>h6 {
+    color: #F2C94C;
+    font-size: 16px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+.menu-info>p {
+    font-size: 11px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 1.80px;
+}
+.carousel-heading {
+    text-align: center;
+}
+.carousel {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 40px;
+}
+
+
+
+.find-us {
+    background-color:#000000;
+    color: white;
+    padding: 40px;
+}
+.find-us-header {
+    text-align: center;
+}
+.find-us-header>h1 {
+    font-size: 60px;
+    font-family: Quattrocento;
+    font-weight: 400;
+}
+.text-info {
+    padding-right: 10px;
+}
+.text-info>p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2.25px;
+}
+.text-info>h6 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 1.80px;
+}
+.location1>h6 {
+    color: #FFFFff;
+    margin-top: 10px;
+}
+.location2>img {
+    padding: 10px;
+    padding-left: 25px;
+}
+.location2>h6 {
+    color: #FFFFff;
+    margin-top: 10px;
+}
+.img {
+    width: 600px;
+    height: 500px;
+    padding-left: 40px;margin-left: 20px;
+}
+
+.footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding:40px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.footer-contact {
+    padding: 20px;
+    padding-right: 30px;
+}
+.footer-contact>img {
+    padding: 10px;
+    padding-right: 30px;
+}
+.footer-contact>p {
+    margin-top: 20px;
+}
+
+@media screen and (max-width:980px){
+    nav {
+        flex-direction: column;
+    }
+    .directions {
+        padding-left: 20px;
+    }
+    .info1 {
+        flex-direction: column;
+    }
+    .menu-list {
+        padding-left: 0px;
+    }
+    .find-us-info {
+        flex-direction: column;
+        width: auto;
+    }
+    
+    
+}
